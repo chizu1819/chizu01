@@ -1,0 +1,297 @@
+/* リセットCSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    /*font-family: Arial, sans-serif;*/
+    background-color: #f7fefd;
+    line-height: 1.6;
+}
+
+header
+{
+    background-color: snow;
+    color: black;
+    text-align: left;
+    padding: 50px 10%;
+    font-weight: 500;
+}
+
+.top-logo 
+{
+    float: left;
+    width: 50%;
+}
+.top-logo a{
+    text-decoration:none;
+    color: deeppink;
+}
+.top-nav {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.top-nav a
+{
+    color: #7c7b7b;
+}
+a{
+    text-decoration:none;
+}
+/*
+.top-nav a:visited {
+    color: deeppink;
+}*/
+.top-nav a:hover {
+    transition: all 0.3s; /* アニメーションの動きの速度 */
+    color: black;
+}
+.nav
+{
+    display: none;
+}
+/* 表示ページのメニューデザイン */
+a.active
+{
+    /*background-color: #28bfe7;*/
+    color: black;
+}
+.openbtn2
+{
+    display: none;
+}
+
+section {
+    padding: 50px;
+}
+
+#about,#contact{
+    padding: 50px 120px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 10%;
+    height: auto;
+}
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding: 50px;
+}
+
+/*ホバーしたら*/
+.child1 {
+    background-color: aqua;
+    cursor: pointer;
+    max-width: 1000px;
+    max-height:750px;
+    position: relative;
+    width: 100%;
+    height: 97.5%;
+
+  }
+  .child1 img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0%;
+  }
+  .hover-mask {
+    /*align-items: center; /* テキストの中央揃え */
+    background: rgba(0, 0, 0, .5); /* マスクの色(黒の50%) */
+    bottom: 0;
+    color: #fff; /* テキストの色 */
+    display: flex; /* テキストの中央揃え */
+    height: auto;
+    justify-content: left;  /*テキストの中央揃え */
+    left: 0;
+    opacity: 0; /* 最初は透明(非表示) */
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
+    width: 100%;
+  }
+  .hover-mask:hover {
+    opacity: 1; /* hoverしたら透過しない(表示させる) */
+  }
+.hover-mask p {
+    width: auto /* テキストを横幅いっぱいにならないようにする */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #444;
+    color: white;
+}
+
+
+#popup-wrapper, #popup-wrapper_a,#popup-wrapper_data,#popup-wrapper_3, #popup-wrapper_d,#popup-wrapper_r,#popup-wrapper_ai, #popup-wrapper_cap{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;/*最上面に*/
+  }
+
+  /*#popup-wrapper_cap
+  {
+    background-color: rgba(239, 0, 108, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 2000;
+  }*/
+  
+  #popup-inside,#popup-inside_data,#popup-inside_a,#popup-inside_3,#popup-inside_d,#popup-inside_r,#popup-inside_ai, #popup-inside_cap{
+    
+    width: auto;
+    max-width: 1000px;
+    height:500px;
+    background: white;
+    margin: 5% 10%;
+    padding: 50px 10%;
+    position: relative;
+    overflow-y: scroll;
+  }
+
+
+  /*#popup-inside_cap
+  {
+    text-align: center;
+    width: auto;
+    max-width: 1000px;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+  }*/
+  
+#close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+}
+
+#scroll-to-top-btn
+{
+    background-color: #f7fefd;
+    /*bottom: 100px;*/
+    height: auto;
+    width: auto;
+    font-size: 10x;
+    border: none;
+    outline: none;
+    opacity: 1;
+    cursor: pointer;
+    /*transition-duration: 0.5s;*/
+}
+
+#message
+{
+    background-color: #ffffff;
+}
+
+#message_1, #message h2
+{
+    background-color: #ffffff;
+}
+
+#contents_2/*制作期間など*/
+{
+    text-align: left;
+    font-size:small
+}
+#image
+{
+    text-align: center;
+    display: block; 
+    margin: auto;
+}
+#icon
+{
+    text-align: right;
+}
+
+.grid-parent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+a[target=_blank]{
+    color: deeppink;
+    text-decoration:none;
+	padding-right: 20px;
+	background: url(./images/icon_blank.png) right center/11px auto no-repeat;
+}
+
+.child3 a[target=_blank]{
+    text-decoration:none;
+    padding-right: 20px;
+    background: url(./images/ig_mono.png) right center/11px auto no-repeat;
+}
+
+.img_container{
+    width: 70%;
+    height: 70%;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  img:nth-child(2){
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img_container:hover img:nth-child(2){
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .btn {
+	position: relative;
+	width: 80px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+	/*border-radius: 12px;*/
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.btn:hover img:nth-of-type(2) {
+	opacity: 0;
+}
