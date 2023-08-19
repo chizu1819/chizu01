@@ -60,7 +60,7 @@ section {
 }
 
 #about,#contact{
-    padding: 50px 10%;
+    padding: 10px 10%;
 }
 
 .project {
@@ -82,7 +82,6 @@ section {
 
 /*ホバーしたら*/
 .child1 {
-    background-color: aqua;
     cursor: pointer;
     max-width: 500px;
     position: relative;
@@ -111,8 +110,8 @@ section {
 
 footer {
     text-align: center;
+    font-size: small;
     padding: 20px 0;
-    background-color: #444;
 }
 
 
@@ -215,7 +214,7 @@ a[target=_blank]{
   img:nth-child(2){
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -227,7 +226,7 @@ a[target=_blank]{
   .btn {
 	position: relative;
 	width: 80%;
-	height: 500px;
+	height: 450px;
 	margin: 0 auto;
 	display: block;
 	/*border-radius: 12px;*/
@@ -236,7 +235,7 @@ a[target=_blank]{
 }
 .btn img {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -244,6 +243,7 @@ a[target=_blank]{
 	display: block;
 	-webkit-transition: .4s ease-in-out;
 	transition: .4s ease-in-out;
+  
 }
 
 
@@ -354,7 +354,6 @@ a[target=_blank]{
 
 .about_contents2
 {
-    background-color: pink;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
