@@ -226,8 +226,8 @@ a[target=_blank]{
   
   .btn {
 	position: relative;
-	width: 80px;
-	height: 100px;
+	width: 80%;
+	height: 500px;
 	margin: 0 auto;
 	display: block;
 	/*border-radius: 12px;*/
@@ -340,3 +340,23 @@ a[target=_blank]{
   #drawer_input:checked ~ .nav_content {
     left: 0;/* メニューを画面に入れる */
   }
+
+
+#about_contents2
+  {
+    font-size: 11px;
+  }
+
+  #about_contents1
+  {
+    font-size: 11px;
+  }
+
+.about_contents2
+{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0px;
+}
