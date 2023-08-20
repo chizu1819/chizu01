@@ -16,6 +16,7 @@ body {
 
 header
 {
+    background-color: snow;
     color: black;
     text-align: left;
     padding: 50px 10%;
@@ -421,6 +422,12 @@ a[target=_blank]{
 }
 
 /*AisekiR*/
+#AisekiR
+{
+    background-color: snow;
+    padding: 50px 10%;
+    
+}
 .aisekir_btn {
 	position: relative;
 	width: 100%;
@@ -450,6 +457,7 @@ a[target=_blank]{
 #School
 {
     background-color: snow;
+    padding: 50px 10%;
     
 }
 .School-top
@@ -472,6 +480,11 @@ a[target=_blank]{
 }
 
 #keyword
+{
+    padding-left: 10%;
+}
+
+#data
 {
     padding-left: 10%;
 }
