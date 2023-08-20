@@ -10,13 +10,12 @@ p{
 }
 
 body {
-    background-color: #f7fefd;
+    
     line-height: 1.6;
 }
 
 header
 {
-    background-color: snow;
     color: black;
     text-align: left;
     padding: 50px 10%;
@@ -30,7 +29,7 @@ header
 }
 .top-logo a{
     text-decoration:none;
-    color: deeppink;
+    color: rgb(0, 90, 208);
 }
 .top-nav {
     float: right;
@@ -118,9 +117,9 @@ section {
   }
   .hover-mask {
     /*align-items: center; /* テキストの中央揃え */
-    background: rgba(0, 0, 0, .5); /* マスクの色(黒の50%) */
+    background: rgba(255, 255, 255, 0.7); /* マスクの色(黒の50%) */
     bottom: 0;
-    color: #fff; /* テキストの色 */
+    color: rgb(0, 90, 208); /* テキストの色 */
     display: flex; /* テキストの中央揃え */
     height: auto;
     justify-content: left;  /*テキストの中央揃え */
@@ -131,7 +130,6 @@ section {
     top: 0;
     transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
     width: 100%;
-    
   }
   .hover-mask:hover {
     opacity: 1; /* hoverしたら透過しない(表示させる) */
@@ -158,6 +156,7 @@ footer {
     height: 100%;
     display: none;
     z-index: 1000;/*最上面に*/
+    
   }
 
   /*#popup-wrapper_cap
@@ -205,7 +204,7 @@ footer {
 
 #scroll-to-top-btn
 {
-    background-color: #f7fefd;
+    background-color: snow;
     /*bottom: 100px;*/
     height: auto;
     width: auto;
@@ -250,7 +249,7 @@ footer {
 }
 
 a[target=_blank]{
-    color: deeppink;
+    color: rgb(0, 90, 208);
     text-decoration:none;
 	padding-right: 20px;
 	background: url(./images/icon_blank.png) right center/11px auto no-repeat;
@@ -357,9 +356,8 @@ a[target=_blank]{
 /*I'll decide*/
 #Illdecide
 {
-    background-color: white;
+  background: linear-gradient(180deg, #2eb0ff,snow);
 }
-
 .decide-top
 {
     display: grid;
@@ -392,14 +390,15 @@ a[target=_blank]{
 
 .decide-process
 {
-    text-align: center;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    padding:0%,10%;
 }
 .decide-process2
 {
-    text-align: center;
+
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-template-rows: auto;
@@ -412,7 +411,15 @@ a[target=_blank]{
 .decide-bottom
 {
     text-align: center;
-
+}
+#reserch
+{
+    padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #FFF; /* 背景色 */
+  border: solid 3px #ffb55b; /* 線の色 */
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ccc; /* 影の色 */
 }
 
 /*AisekiR*/
@@ -445,6 +452,7 @@ a[target=_blank]{
 #School
 {
     background-color: #26c0b1;
+    
 }
 .School-top
 {
@@ -463,4 +471,9 @@ a[target=_blank]{
 {
     text-align: center;
     padding:0%,0%;
+}
+
+#keyword
+{
+    padding-left: 10%;
 }

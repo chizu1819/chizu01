@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     /*font-family: Arial, sans-serif;*/
-    background-color: #f7fefd;
+    background-color: snow;
     line-height: 1.6;
 }
 
@@ -95,7 +95,7 @@ section {
   .hover-mask {
     background: rgba(0, 0, 0, .5); /* マスクの色(黒の50%) */
     bottom: 0;
-    color: #fff; /* テキストの色 */
+    color: rgb(0, 90, 208); /* テキストの色 */
     display: flex; /* テキストの中央揃え */
     height: auto;
     justify-content: left;  /*テキストの中央揃え */
@@ -414,4 +414,42 @@ opacity: 1;/*選択されているものは透過しない*/
 
 .wrapper {
   font-size: 5px!important;
+}
+
+/*decide*/
+#Illdecide
+{
+  background: linear-gradient(180deg, #2eb0ff,snow);
+}
+.decide-top
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+}
+#decide-logo img
+{
+  padding:30%,10%;
+  margin-top: 30%;
+}
+#decide-logo img
+{
+  width: 50%;
+  height: auto;
+}
+#decide-logo p
+{
+  font-size: 10px;
+}
+#decide-smp img
+{
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+
+#decide-contents_2
+{
+  text-align: left;
+  font-size:xx-small;
 }
