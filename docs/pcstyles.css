@@ -10,7 +10,7 @@ p{
 }
 
 body {
-    
+    background-color: snow;
     line-height: 1.6;
 }
 
@@ -85,7 +85,7 @@ section {
 
 .grid-parent {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
     padding: 50px;
@@ -356,7 +356,8 @@ a[target=_blank]{
 /*I'll decide*/
 #Illdecide
 {
-  background: linear-gradient(180deg, #2eb0ff,snow);
+    background-color: snow;
+    
 }
 .decide-top
 {
@@ -451,7 +452,7 @@ a[target=_blank]{
 /*School*/
 #School
 {
-    background-color: #26c0b1;
+    background-color: snow;
     
 }
 .School-top
