@@ -93,7 +93,6 @@ section {
 
 .about_contents2
 {
-    background-color: pink;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -312,8 +311,6 @@ a[target=_blank]{
 スライダーのためのcss
 ===================================*/
 /*画像の横幅を100%にしてレスポンシブ化*/
-
-
 .gallery img{
     margin: auto;
 	height: auto;
@@ -341,7 +338,7 @@ a[target=_blank]{
     text-align: center;
 	cursor: pointer;
 	outline: none;
-	width: 5px;;
+    width: 10px;
     list-style:none;
 }
 .choice-btn li img{  
