@@ -359,3 +359,59 @@ a[target=_blank]{
     grid-template-rows: auto;
     grid-gap: 0px;
 }
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+/*画像の横幅を100%にしてレスポンシブ化*/
+
+
+.gallery img{
+  margin: 0 auto;
+  height: auto;
+  vertical-align: bottom;/*画像の下にできる余白を削除*/
+  width: 60%;
+}
+
+.choice-btn li img{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;/*画像の下にできる余白を削除*/
+}
+
+
+
+.gallery li{
+  text-align: center;
+  list-style:none;
+  margin-bottom: 20px;
+}
+
+
+
+/*選択するサムネイル画像の設定*/
+
+.choice-btn li{
+  margin-bottom: 150px;
+  text-align: center;
+cursor: pointer;
+outline: none;
+width: 5px;;
+  list-style:none;
+
+}
+
+.choice-btn li img{
+  
+opacity: 0.4;/*選択されていないものは透過40%*/
+}
+
+.choice-btn li.slick-current img{
+opacity: 1;/*選択されているものは透過しない*/
+}
+
+.wrapper {
+  font-size: 5px!important;
+}
