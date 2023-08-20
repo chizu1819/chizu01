@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CHIZU NISHIMORI Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="pcstyles.css" media="(min-width:480px)">
+        <link rel="stylesheet" href="smstyles.css" media="screen and (max-width:480px)"> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Noto+Sans+JP:wght@300&display=swap');
+        </style>
+</head>
+<header>
+
+<body>
+    <header>
+        <div class="top-logo">
+            <a href="./index.html"><h3>CHIZU NISHIMORI</h3></a>
+        </div>
+        <div class="top-nav">
+            <a href="./index.html">　works　</a>
+            <a href="./about.html">　about　</a>
+        </ul>
+        </div>
+
+         <!-- ハンバーガーメニュー部分 -->
+         <div class="nav">
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+            <!-- メニュー -->
+            <nav class="nav_content">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="./index.html"><h3>　works　</h3></a></li>
+                <br>
+                <li class="nav_item"><a href="./about.html"><h3>　about　</h3></a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h4 id="d">
+        <br>　game, AR, 2021
+    </h4>
+
+    <section id="School">
+        <div class="School-top">
+            <div id="School-logo">
+                <img src="./images/school_logo.png" alt="" width="70%">
+                <p id="decide-p">決断を困っている人のための2択専用アプリ</p>
+                <p id="decide-p">決断すべきことへの頭の整理、より良い決断をアシストする</p>
+            </div>
+            <div id="School-smp">
+                <img src="./images/school_photo5.png" alt="" width="100%">
+            </div>
+        </div>
+        <br>
+        <div class="aiseki-middle">
+            <h3>Contept Video</h3> <br>
+            <img src="./images/STYLY_marker (2).png" alt="" width="80%">
+        </div>
+
+        <div class="aiseki-middle">
+            <h3>System Video</h3> <br>
+            <video id="image" playsinline controls width="100%" src="./video/AisekiR_video.mp4"></video><br>
+        </div>
+
+        <div id="decide-contents_2">
+                -------------------<br>
+                2021　<a href="https://sites.google.com/view/whee-ar-hackathon2021/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0" target="_blank" rel="noopener noreferrer">ARハッカソン</a>
+                　優秀賞<br>
+                制作人数　3人<br>
+                役割　アプリデザイン、UI、1stシーン制作<br>
+                制作期間　1週間<br>
+                使用ソフト　Unity, Illustrator, Photoshop, AfterEffect
+        </div>
+        <br>
+        
+        <br>
+        
+    </section>
+
+    <button id="scroll-to-top-btn">
+        <p> ↑　Go to Top</p>
+    </button>
+
+    <footer>
+        <p>&copy; 2023 CHIZU NISHIMORI</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--自作のJS-->
+    <script src="script.js"></script>
+    </body>
+    <footer>
+
+    </footer>
+    
+
+ 
+</html>

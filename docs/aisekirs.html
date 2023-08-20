@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CHIZU NISHIMORI Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="pcstyles.css" media="(min-width:480px)">
+        <link rel="stylesheet" href="smstyles.css" media="screen and (max-width:480px)"> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Noto+Sans+JP:wght@300&display=swap');
+        </style>
+</head>
+<header>
+
+<body>
+    <header>
+        <div class="top-logo">
+            <a href="./index.html"><h3>CHIZU NISHIMORI</h3></a>
+        </div>
+        <div class="top-nav">
+            <a href="./index.html">　works　</a>
+            <a href="./about.html">　about　</a>
+        </ul>
+        </div>
+
+         <!-- ハンバーガーメニュー部分 -->
+         <div class="nav">
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+            <!-- メニュー -->
+            <nav class="nav_content">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="./index.html"><h3>　works　</h3></a></li>
+                <br>
+                <li class="nav_item"><a href="./about.html"><h3>　about　</h3></a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h4 id="d">
+        <br>　reserch, AR, communal eating, 2021
+    </h4>
+
+    <section id="Illdecide">
+        <div class="aiseki-top">
+            <h2><a href="http://www.interaction-ipsj.org/proceedings/2022/data/bib/2D17.html" target="_blank" rel="noopener noreferrer">AisekiR</a></h2>
+            <p>食事体験の向上を目的とする、ARキャラクタとの共食システム</p>
+            <div class="aisekir_btn">
+                <img src="./images/aisekir_photo3.png" alt="Chizu Nishimori" width="100%"/>
+                <img src="./images/aisekir_photo4.png" alt="Chizu Nishimori" width="100%"/>    
+            </div>
+
+            <p id="contents_1">
+               新型コロナウィルスの感染拡大で増加した一人外食、今までも問題視されていた一人食を解決するために，共食環境を再現することが有効であると考えられる．
+               そこで本研究では, スマートフォン，タブレットを使用して, ARキャラクタと共食をする「AisekiR」を提案します.
+            </p>
+        </div>
+        <br>
+        <div class="aiseki-middle">
+            <h3>Contept Video</h3> <br>
+            <video id="image" playsinline controls width="100%" src="./video/コンセプト映像.mp4"></video><br>
+        </div>
+
+        <div class="aiseki-middle">
+            <h3>System Video</h3> <br>
+            <video id="image" playsinline controls width="100%" src="./video/AisekiR_video.mp4"></video><br>
+        </div>
+
+        <div id="decide-contents_2">
+                -------------------<br>
+                2021　<br>
+                インタラクション2022　デモ発表採択<br>
+                制作人数　3人<br>
+                役割　ARキャラクタのモーション作成、論文執筆<br>
+                制作期間　5ヶ月<br>
+                使用ソフト　Unity, Blender<br>
+                使用言語　C#
+        </div>
+        <br>
+        
+        <br>
+        
+    </section>
+
+    <button id="scroll-to-top-btn">
+        <p> ↑　Go to Top</p>
+    </button>
+
+    <footer>
+        <p>&copy; 2023 CHIZU NISHIMORI</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--自作のJS-->
+    <script src="script.js"></script>
+    </body>
+    <footer>
+
+    </footer>
+    
+
+ 
+</html>
